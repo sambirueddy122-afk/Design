@@ -1,0 +1,28 @@
+a, span{
+
+	color:#888;
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+a{
+  color: #b75cff;
+  text-decoration: none;
+}
+
+b{
+	color: #b75cff;
+}
+@keyframes show{
+	from{
+		opacity: 0;
+		transform: translateY(30px);
+
+	}
+
+
+	to{
+		opacity:1 ;
+		transform: translateY(0);
+	}
+}
